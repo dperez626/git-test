@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>HFY Enviromental Services</title>
+</head>
+
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="imgs/recyclelogonew.png" class="img-responsive float-left"/>
+                </div>
+                <div class="col">
+                    <h1 class="">HFY Enviromental Services</h1>
+                    <h2 class="align-self-center">Here For You!</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+        <a class="navbar-brand text-success" href=""><strong>HFY</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#services&prices">Services & Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#promo">Current Promotions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#contactus">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#quote">Quote</a> 
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-md-8 mx-auto">
+                <div>
+                    <p>Our Mission Statement: To provide optimal cleaning and sanitizing services through out the Tampa area.
+                    Competive but afforable prices. Breathe easy and let us fulfill your cleaning needs, with our expertise! Home or Office leave the dirty work to our cleaning professionals! Below view our prices and plans to which fits your needs. Look no further than HFY Enviromental Services. We are here for you!</p>
+                </div>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalquote">Request Your Free Quote Now!</button>
+            </div>
+        </div>
+    </div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="modalquote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-info" id="exampleModalLabel">Your Free Quote</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                            <div class="col-5 col-md-3">
+                                <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                            </div>
+                            <div class="col-7">
+                                <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="inputState">Service</label>
+                                <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>Residential Cleaning</option>
+                                <option>Office Cleaning</option>
+                                <option>Painting & Staining</option>
+                                <option>Gutter & Roofing</option>
+                                <option>Power Washing</option>
+                                <option>Commerical Cleaning</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="services&prices">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2 class="text-dark">Our Services & Pricing</h2>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-sm-4">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="imgs/housecleaning.jpg" alt="House hold cleaning items">
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        <a class="btn btn-outline-light" data-toggle="collapse" href="#residentialcollapse" role="button" aria-expanded="false" aria-controls="residentialcollapse">
+                        Residential Cleaning From<strong>$20/hour</strong></a></p>
+                        <div class="collapse" id="residentialcollapse">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Vaccum</li>
+                                    <li>Dust Removal</li>
+                                    <li>Mopping</li>
+                                    <li>Sanitize</li>
+                                    <li>Bathroom</li>
+                                    <li>and more...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="imgs/officecleaning.jpg" alt="a clean office">
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        <a class="btn btn-outline-light" data-toggle="collapse" href="#ocollapse" role="button" aria-expanded="false" aria-controls="ocollapse">
+                        Office Cleaning From<strong>$20/hour</strong></a></p>
+                        <div class="collapse" id="ocollapse">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Vaccum</li>
+                                    <li>Dust Removal</li>
+                                    <li>Mopping</li>
+                                    <li>Sanitize</li>
+                                    <li>Bathroom</li>
+                                    <li>Trash Removal</li>
+                                    <li>Window Sills</li>
+                                    <li>and more...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="imgs/painting.jpg" alt="a rolling brusah painting a wall">
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            <a class="btn btn-outline-light" data-toggle="collapse" href="#pcollapse" role="button" aria-expanded="false" aria-controls="pcollapse">
+                                Painting & Staining from <strong>$15/hour</strong></a></p>
+                            <div class="collapse" id="pcollapse">
+                                <div class="card card-body">
+                                  <ul>
+                                      <li>Floor Boards</li>
+                                      <li>Walls</li>
+                                      <li>Sidings</li>
+                                      <li>Fences</li>
+                                      <li>and more...</li>
+                                  </ul>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-sm-4">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="imgs/guttercleaning.jpg" alt="left side gutter filled with leaves, right side gutter is cleaned and leaves are gone.">
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        <a class="btn btn-outline-light" data-toggle="collapse" href="#gcollapse" role="button" aria-expanded="false" aria-controls="gcollapse">
+                            Gutter and Roof Cleaning from <strong>$80</strong></a></p>
+                        <div class="collapse" id="gcollapse">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Leaf Removal</li>
+                                    <li>Gutter Cleaning</li>
+                                    <li>Gutter Repairs</li>
+                                    <li>and more...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="imgs/pressurewashing.jpg" alt="A man pressurewashing concrete in front of a house">
+                    <div class="card-body">
+                      <p class="card-text text-center">                    
+                      <a class="btn btn-outline-light" data-toggle="collapse" href="#wcollapse" role="button" aria-expanded="false" aria-controls="wcollapse">
+                        Professional Powerwashing From <strong>$50/hour</strong></a></p>
+                        <div class="collapse" id="wcollapse">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Driveways</li>
+                                    <li>Decks</li>
+                                    <li>Docks</li>
+                                    <li>Roofs</li>
+                                    <li>and more...</li>
+                                </ul>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="imgs/commericalcleaning.jpg" alt="floor buffer being used.">
+                    <div class="card-body">
+                      <p class="card-text text-center">                
+                        <a class="btn btn-outline-light" data-toggle="collapse" href="#comcollapse" role="button" aria-expanded="false" aria-controls="comcollapse">
+                        Commerical Cleaning <strong><em> *Individual Pricing</em></strong></a></p>
+                        <div class="collapse" id="comcollapse">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Deep Carpet Cleaning</li>
+                                    <li>Power Washing</li>
+                                    <li>Tile & Grout Cleaning</li>
+                                    <li>Window washing</li>
+                                    <li>and more...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="promo">
+        <div class="row row-content">
+            <div class="col">
+                <h2 class="text-sm-left text-dark">Our Current Promotions</h2>
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="imgs/15PERCENT.png" class="card-img-top" alt="15% off discount">
+                            <div class="card-body">
+                                <h5 class="card-title">Referral Discount</h5>
+                                <p class="card-text">Refer us to a friend and/or business and receive a 15% discount on your next cleaning service.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><em>*For the month of Feburary!</em></small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="imgs/25PERCENT.png" class="card-img-top" alt="25% off discount">
+                            <div class="card-body">
+                                <h5 class="card-title">Pressure Washing Discount</h5>
+                                <p class="card-text">Get 25% off our pressure washing service when selecting our Gutter and Roof Service!
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><em>*02/02/2022 - 02/15/2022!</em></small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="imgs/50off.png" class="card-img-top" alt="$50 off discount">
+                            <div class="card-body">
+                                <h5 class="card-title">Our New Client Discount</h5>
+                                <p class="card-text">Receive $50 off your first residential or commercial cleaning service and get benefit from this great deal!</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><em>*Last updated 3 mins ago</em></small>
+                            </div>
+                        </div>
+                    </div>
+            </div>        
+        </div>
+    </div>
+ 
+
+    <div class="container" id="aboutus">
+        <div class="row row-content">
+            <div class="col">
+                <div class="card mb-3">
+                    <img src="imgs/cleaning group picture.jpg" class="card-img-top" alt="Our professional cleaning crew">
+                    <div class="card-body">
+                    <h5 class="card-title bg-dark text-white"><strong>About Us</strong></h5>
+                    <p class="card-text">Cleaning is not an easy task. It is a dirty work and takes a lot of time. But luckily, cleaning is our passion and we can guarantee it! We are a team of committed professionals who do our best to provide you with a superior quality service with numerous benefits.
+                        Just contact us and test our devotion to our services and dedication to customers. We'll make your home or office shine and clean like never before.</p>
+                    <div>Some Fun Facts About Us:
+                        <ul>
+                            <li>Over 5 years experinece!</li>
+                            <li>OSHA Certified</li>
+                            <li>MSDS Certified</li>
+                            <li>Covid-19 Killing Chemicals</li>
+                            <li>10 Experinced Crews</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="contactus">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-dark">Contact Us</h2>
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4">
+                <h4 class="text-info">Our Office</h4>
+                <address>
+                    4611 Shad Street,<br />
+                    Tampa, FL, 33617<br />
+                    U.S.A.
+                </address>
+                <h5 class="text-info">Our Hours:</h5>
+                <h6>Mon-Fri: 7am - 7pm</h6>
+                <h6>Sat: 8am - 5pm</h6>
+            </div>
+            <div class="col">
+                <a role="button" class="btn btn-link text-info" href="tel:+18139999999"><i class="fa fa-phone"></i> 1-813-999-9999</a><br>
+                <a role="button" class="btn btn-link text-info" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> HFYenvironmentalservices@yahoo.com</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class ="row" id="quote">
+        <div class="col">
+            <h2 class="text-dark">Request Your Quote</h2>
+        </div>
+    </div>      
+    <form>
+        <div class="form-group row">
+            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+            <div class="col-5 col-md-3">
+                <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+            </div>
+            <div class="col-7">
+                <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="email" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputState">Service</label>
+                <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>Residential Cleaning</option>
+                <option>Office Cleaning</option>
+                <option>Painting & Staining</option>
+                <option>Gutter & Roofing</option>
+                <option>Power Washing</option>
+                <option>Commerical Cleaning</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success">Send</button>
+    </form>        
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5 class="text-dark">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-dark">Home</a></li>
+                        <li><a href="#services&prices"class="text-dark">Services & Pricing</a></li>
+                        <li><a href="#promo" class="text-dark">Current Promotions</a></li>
+                        <li><a href="#aboutus" class="text-dark">About Us</a></li>
+                        <li><a href="#contactus" class="text-dark">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col text-center">
+                    <h5 class="text-dark">Our Contact</h5>
+                    <a role="button" class="btn btn-link text-dark" href="tel:+18139999999"><i class="fa fa-phone"></i> <strong>1-813-999-9999</strong></a><br>
+                    <a role="button" class="btn btn-link text-dark" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i><strong> HFYenvironmentalservices@yahoo.com</strong></a>
+                </div>
+            </div>
+        </div> 
+    </footer>       
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
